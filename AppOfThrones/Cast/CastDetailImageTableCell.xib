@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="244" id="y3x-6f-FYf" customClass="CastDetailImageTableCell" customModule="AppOfThrones" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="244"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="y3x-6f-FYf" id="aia-N5-vgV">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="244"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mvr-U4-E2v">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="244"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mvr-U4-E2v" firstAttribute="leading" secondItem="aia-N5-vgV" secondAttribute="leading" id="6Cg-dc-v7f"/>
+                    <constraint firstAttribute="bottom" secondItem="Mvr-U4-E2v" secondAttribute="bottom" id="K0h-dJ-LWv"/>
+                    <constraint firstItem="Mvr-U4-E2v" firstAttribute="top" secondItem="aia-N5-vgV" secondAttribute="top" id="RiS-Kt-Fmp"/>
+                    <constraint firstAttribute="trailing" secondItem="Mvr-U4-E2v" secondAttribute="trailing" id="hiO-Vd-lIz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+            <connections>
+                <outlet property="avatar" destination="Mvr-U4-E2v" id="WbZ-wM-14f"/>
+            </connections>
+            <point key="canvasLocation" x="121.73913043478262" y="40.848214285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

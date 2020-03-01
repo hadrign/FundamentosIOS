@@ -7,13 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D2434C823FDDD3000AD099B /* HouseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2434C723FDDD3000AD099B /* HouseTableViewCell.swift */; };
+		7D2434CC23FDDE2C00AD099B /* HouseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2434CB23FDDE2C00AD099B /* HouseTableViewCell.xib */; };
 		7D2D760223F34BCE0077C9DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D760123F34BCE0077C9DA /* AppDelegate.swift */; };
 		7D2D760423F34BCE0077C9DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D760323F34BCE0077C9DA /* SceneDelegate.swift */; };
-		7D2D760623F34BCE0077C9DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D760523F34BCE0077C9DA /* ViewController.swift */; };
-		7D2D760923F34BCE0077C9DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2D760723F34BCE0077C9DA /* Main.storyboard */; };
 		7D2D760B23F34BD00077C9DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2D760A23F34BD00077C9DA /* Assets.xcassets */; };
 		7D2D760E23F34BD00077C9DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2D760C23F34BD00077C9DA /* LaunchScreen.storyboard */; };
 		7D2D761923F34BD10077C9DA /* AppOfThronesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D761823F34BD10077C9DA /* AppOfThronesTests.swift */; };
+		7D2D762423F35E5B0077C9DA /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D762323F35E5B0077C9DA /* RateViewController.swift */; };
+		7D2D762623F35E900077C9DA /* RateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2D762523F35E900077C9DA /* RateViewController.xib */; };
+		7D2D762923F5F0620077C9DA /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D762823F5F0620077C9DA /* EpisodeViewController.swift */; };
+		7D2D762B23F5F07B0077C9DA /* EpisodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2D762A23F5F07B0077C9DA /* EpisodeViewController.xib */; };
+		7D2D762E23F5F4190077C9DA /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D762D23F5F4190077C9DA /* Episode.swift */; };
+		7D2D763223F6020C0077C9DA /* CastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D763123F6020C0077C9DA /* CastViewController.swift */; };
+		7D2D763423F602240077C9DA /* CastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2D763323F602240077C9DA /* CastViewController.xib */; };
+		7D2D763623F602B00077C9DA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D763523F602B00077C9DA /* SettingsViewController.swift */; };
+		7D2D763823F602C10077C9DA /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2D763723F602C10077C9DA /* SettingsViewController.xib */; };
+		7D2D763B23F606BF0077C9DA /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2D763A23F606BF0077C9DA /* HouseViewController.swift */; };
+		7D2D763E23F606E20077C9DA /* HouseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2D763D23F606E20077C9DA /* HouseViewController.xib */; };
+		7D4A3FA22409D233000C01EC /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A3FA02409D233000C01EC /* FavoritesViewController.swift */; };
+		7D4A3FA32409D233000C01EC /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4A3FA12409D233000C01EC /* FavoritesViewController.xib */; };
+		7D4A3FA5240AC12E000C01EC /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A3FA4240AC12E000C01EC /* FavoritesTableViewCell.swift */; };
+		7D4A3FA7240AC141000C01EC /* FavoritesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4A3FA6240AC141000C01EC /* FavoritesTableViewCell.xib */; };
+		7D4A3FAA240C2100000C01EC /* HouseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A3FA8240C2100000C01EC /* HouseDetailViewController.swift */; };
+		7D4A3FAB240C2100000C01EC /* HouseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4A3FA9240C2100000C01EC /* HouseDetailViewController.xib */; };
+		7D4A3FAD240C2119000C01EC /* HouseDetailImageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A3FAC240C2119000C01EC /* HouseDetailImageTableCell.swift */; };
+		7D4A3FAF240C212E000C01EC /* HouseDetailImageTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4A3FAE240C212E000C01EC /* HouseDetailImageTableCell.xib */; };
+		7D4A3FB1240C214F000C01EC /* HouseDetailDataTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A3FB0240C214F000C01EC /* HouseDetailDataTableCell.swift */; };
+		7D4A3FB3240C2168000C01EC /* HouseDetailDataTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D4A3FB2240C2168000C01EC /* HouseDetailDataTableCell.xib */; };
+		7D867F7423FD0F4800D82DD6 /* CastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D867F7323FD0F4800D82DD6 /* CastTableViewCell.swift */; };
+		7D867F7623FD0F6100D82DD6 /* CastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D867F7523FD0F6100D82DD6 /* CastTableViewCell.xib */; };
+		7DA57B1123FE4BF100B3DDE0 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA57B1023FE4BF100B3DDE0 /* Rating.swift */; };
+		7DA57B1C23FF31A400B3DDE0 /* season_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B1223FF31A300B3DDE0 /* season_6.json */; };
+		7DA57B1D23FF31A400B3DDE0 /* season_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B1323FF31A300B3DDE0 /* season_1.json */; };
+		7DA57B1E23FF31A400B3DDE0 /* cast.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B1423FF31A300B3DDE0 /* cast.json */; };
+		7DA57B1F23FF31A400B3DDE0 /* season_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B1523FF31A300B3DDE0 /* season_7.json */; };
+		7DA57B2023FF31A400B3DDE0 /* season_8.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B1623FF31A300B3DDE0 /* season_8.json */; };
+		7DA57B2123FF31A400B3DDE0 /* season_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B1723FF31A300B3DDE0 /* season_5.json */; };
+		7DA57B2223FF31A400B3DDE0 /* houses.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B1823FF31A300B3DDE0 /* houses.json */; };
+		7DA57B2323FF31A400B3DDE0 /* season_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B1923FF31A300B3DDE0 /* season_2.json */; };
+		7DA57B2423FF31A400B3DDE0 /* season_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B1A23FF31A300B3DDE0 /* season_4.json */; };
+		7DA57B2523FF31A400B3DDE0 /* season_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B1B23FF31A400B3DDE0 /* season_3.json */; };
+		7DA57B272406E02D00B3DDE0 /* EpisodeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA57B262406E02D00B3DDE0 /* EpisodeDetailViewController.swift */; };
+		7DA57B2B2406E07900B3DDE0 /* EpisodeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B2A2406E07900B3DDE0 /* EpisodeDetailViewController.xib */; };
+		7DA57B2D2406E09700B3DDE0 /* EpisodeDetailImageViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA57B2C2406E09700B3DDE0 /* EpisodeDetailImageViewControllerCell.swift */; };
+		7DA57B2F2406E0B600B3DDE0 /* EpisodeDetailImageViewControllerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B2E2406E0B600B3DDE0 /* EpisodeDetailImageViewControllerCell.xib */; };
+		7DA57B312406E0D400B3DDE0 /* EpisodeDetailDataViewControllerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B302406E0D400B3DDE0 /* EpisodeDetailDataViewControllerCell.xib */; };
+		7DA57B3324070E5800B3DDE0 /* EpisodeDetailDataViewControllerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA57B3224070E5800B3DDE0 /* EpisodeDetailDataViewControllerCell.swift */; };
+		7DA57B35240956C400B3DDE0 /* CastDetatilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA57B34240956C400B3DDE0 /* CastDetatilViewController.swift */; };
+		7DA57B37240956DC00B3DDE0 /* CastDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B36240956DC00B3DDE0 /* CastDetailViewController.xib */; };
+		7DA57B392409570900B3DDE0 /* CastDetailImageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA57B382409570900B3DDE0 /* CastDetailImageTableCell.swift */; };
+		7DA57B3B2409572800B3DDE0 /* CastDetailImageTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B3A2409572800B3DDE0 /* CastDetailImageTableCell.xib */; };
+		7DA57B3D2409574900B3DDE0 /* CastDetailDataTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA57B3C2409574900B3DDE0 /* CastDetailDataTableCell.swift */; };
+		7DA57B3F2409576C00B3DDE0 /* CastDetailDataTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA57B3E2409576C00B3DDE0 /* CastDetailDataTableCell.xib */; };
+		7DE9914923FB319F00AEB059 /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9914823FB319F00AEB059 /* EpisodeTableViewCell.swift */; };
+		7DE9914B23FB31E000AEB059 /* EpisodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DE9914A23FB31E000AEB059 /* EpisodeTableViewCell.xib */; };
+		7DE9915123FB4B7100AEB059 /* Cast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9915023FB4B7100AEB059 /* Cast.swift */; };
+		7DE9915323FB513500AEB059 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9915223FB513500AEB059 /* DataController.swift */; };
+		7DE9915523FB54EC00AEB059 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE9915423FB54EC00AEB059 /* House.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +78,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D2434C723FDDD3000AD099B /* HouseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTableViewCell.swift; sourceTree = "<group>"; };
+		7D2434CB23FDDE2C00AD099B /* HouseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseTableViewCell.xib; sourceTree = "<group>"; };
 		7D2D75FE23F34BCE0077C9DA /* AppOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2D760123F34BCE0077C9DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D2D760323F34BCE0077C9DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D2D760523F34BCE0077C9DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7D2D760823F34BCE0077C9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D2D760A23F34BD00077C9DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D2D760D23F34BD00077C9DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D2D760F23F34BD00077C9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D2D761423F34BD10077C9DA /* AppOfThronesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppOfThronesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2D761823F34BD10077C9DA /* AppOfThronesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOfThronesTests.swift; sourceTree = "<group>"; };
 		7D2D761A23F34BD10077C9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2D762323F35E5B0077C9DA /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
+		7D2D762523F35E900077C9DA /* RateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateViewController.xib; sourceTree = "<group>"; };
+		7D2D762823F5F0620077C9DA /* EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		7D2D762A23F5F07B0077C9DA /* EpisodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeViewController.xib; sourceTree = "<group>"; };
+		7D2D762D23F5F4190077C9DA /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		7D2D763123F6020C0077C9DA /* CastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastViewController.swift; sourceTree = "<group>"; };
+		7D2D763323F602240077C9DA /* CastViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CastViewController.xib; sourceTree = "<group>"; };
+		7D2D763523F602B00077C9DA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7D2D763723F602C10077C9DA /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		7D2D763A23F606BF0077C9DA /* HouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
+		7D2D763D23F606E20077C9DA /* HouseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseViewController.xib; sourceTree = "<group>"; };
+		7D4A3FA02409D233000C01EC /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		7D4A3FA12409D233000C01EC /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		7D4A3FA4240AC12E000C01EC /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		7D4A3FA6240AC141000C01EC /* FavoritesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesTableViewCell.xib; sourceTree = "<group>"; };
+		7D4A3FA8240C2100000C01EC /* HouseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailViewController.swift; sourceTree = "<group>"; };
+		7D4A3FA9240C2100000C01EC /* HouseDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseDetailViewController.xib; sourceTree = "<group>"; };
+		7D4A3FAC240C2119000C01EC /* HouseDetailImageTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailImageTableCell.swift; sourceTree = "<group>"; };
+		7D4A3FAE240C212E000C01EC /* HouseDetailImageTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseDetailImageTableCell.xib; sourceTree = "<group>"; };
+		7D4A3FB0240C214F000C01EC /* HouseDetailDataTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseDetailDataTableCell.swift; sourceTree = "<group>"; };
+		7D4A3FB2240C2168000C01EC /* HouseDetailDataTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HouseDetailDataTableCell.xib; sourceTree = "<group>"; };
+		7D867F7323FD0F4800D82DD6 /* CastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastTableViewCell.swift; sourceTree = "<group>"; };
+		7D867F7523FD0F6100D82DD6 /* CastTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CastTableViewCell.xib; sourceTree = "<group>"; };
+		7DA57B1023FE4BF100B3DDE0 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		7DA57B1223FF31A300B3DDE0 /* season_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = season_6.json; path = Jsons/season_6.json; sourceTree = "<group>"; };
+		7DA57B1323FF31A300B3DDE0 /* season_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = season_1.json; path = Jsons/season_1.json; sourceTree = "<group>"; };
+		7DA57B1423FF31A300B3DDE0 /* cast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cast.json; path = Jsons/cast.json; sourceTree = "<group>"; };
+		7DA57B1523FF31A300B3DDE0 /* season_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = season_7.json; path = Jsons/season_7.json; sourceTree = "<group>"; };
+		7DA57B1623FF31A300B3DDE0 /* season_8.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = season_8.json; path = Jsons/season_8.json; sourceTree = "<group>"; };
+		7DA57B1723FF31A300B3DDE0 /* season_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = season_5.json; path = Jsons/season_5.json; sourceTree = "<group>"; };
+		7DA57B1823FF31A300B3DDE0 /* houses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = houses.json; path = Jsons/houses.json; sourceTree = "<group>"; };
+		7DA57B1923FF31A300B3DDE0 /* season_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = season_2.json; path = Jsons/season_2.json; sourceTree = "<group>"; };
+		7DA57B1A23FF31A300B3DDE0 /* season_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = season_4.json; path = Jsons/season_4.json; sourceTree = "<group>"; };
+		7DA57B1B23FF31A400B3DDE0 /* season_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = season_3.json; path = Jsons/season_3.json; sourceTree = "<group>"; };
+		7DA57B262406E02D00B3DDE0 /* EpisodeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailViewController.swift; sourceTree = "<group>"; };
+		7DA57B2A2406E07900B3DDE0 /* EpisodeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeDetailViewController.xib; sourceTree = "<group>"; };
+		7DA57B2C2406E09700B3DDE0 /* EpisodeDetailImageViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailImageViewControllerCell.swift; sourceTree = "<group>"; };
+		7DA57B2E2406E0B600B3DDE0 /* EpisodeDetailImageViewControllerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeDetailImageViewControllerCell.xib; sourceTree = "<group>"; };
+		7DA57B302406E0D400B3DDE0 /* EpisodeDetailDataViewControllerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeDetailDataViewControllerCell.xib; sourceTree = "<group>"; };
+		7DA57B3224070E5800B3DDE0 /* EpisodeDetailDataViewControllerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailDataViewControllerCell.swift; sourceTree = "<group>"; };
+		7DA57B34240956C400B3DDE0 /* CastDetatilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastDetatilViewController.swift; sourceTree = "<group>"; };
+		7DA57B36240956DC00B3DDE0 /* CastDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CastDetailViewController.xib; sourceTree = "<group>"; };
+		7DA57B382409570900B3DDE0 /* CastDetailImageTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastDetailImageTableCell.swift; sourceTree = "<group>"; };
+		7DA57B3A2409572800B3DDE0 /* CastDetailImageTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CastDetailImageTableCell.xib; sourceTree = "<group>"; };
+		7DA57B3C2409574900B3DDE0 /* CastDetailDataTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastDetailDataTableCell.swift; sourceTree = "<group>"; };
+		7DA57B3E2409576C00B3DDE0 /* CastDetailDataTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CastDetailDataTableCell.xib; sourceTree = "<group>"; };
+		7DE9914823FB319F00AEB059 /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
+		7DE9914A23FB31E000AEB059 /* EpisodeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeTableViewCell.xib; sourceTree = "<group>"; };
+		7DE9915023FB4B7100AEB059 /* Cast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cast.swift; sourceTree = "<group>"; };
+		7DE9915223FB513500AEB059 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		7DE9915423FB54EC00AEB059 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +181,25 @@
 		7D2D760023F34BCE0077C9DA /* AppOfThrones */ = {
 			isa = PBXGroup;
 			children = (
+				7D2D762C23F5F3E40077C9DA /* Model */,
+				7D2D762723F5F0350077C9DA /* Episodes */,
+				7D2D762F23F601E20077C9DA /* Cast */,
+				7D2D763923F606980077C9DA /* Houses */,
+				7D4A3F9F2409D1DA000C01EC /* Favorites */,
+				7D2D763023F601F20077C9DA /* Settings */,
 				7D2D760123F34BCE0077C9DA /* AppDelegate.swift */,
+				7DA57B1423FF31A300B3DDE0 /* cast.json */,
+				7DA57B1823FF31A300B3DDE0 /* houses.json */,
+				7DA57B1323FF31A300B3DDE0 /* season_1.json */,
+				7DA57B1923FF31A300B3DDE0 /* season_2.json */,
+				7DA57B1B23FF31A400B3DDE0 /* season_3.json */,
+				7DA57B1A23FF31A300B3DDE0 /* season_4.json */,
+				7DA57B1723FF31A300B3DDE0 /* season_5.json */,
+				7DA57B1223FF31A300B3DDE0 /* season_6.json */,
+				7DA57B1523FF31A300B3DDE0 /* season_7.json */,
+				7DA57B1623FF31A300B3DDE0 /* season_8.json */,
 				7D2D760323F34BCE0077C9DA /* SceneDelegate.swift */,
-				7D2D760523F34BCE0077C9DA /* ViewController.swift */,
-				7D2D760723F34BCE0077C9DA /* Main.storyboard */,
+				7DE9915223FB513500AEB059 /* DataController.swift */,
 				7D2D760A23F34BD00077C9DA /* Assets.xcassets */,
 				7D2D760C23F34BD00077C9DA /* LaunchScreen.storyboard */,
 				7D2D760F23F34BD00077C9DA /* Info.plist */,
@@ -97,6 +214,90 @@
 				7D2D761A23F34BD10077C9DA /* Info.plist */,
 			);
 			path = AppOfThronesTests;
+			sourceTree = "<group>";
+		};
+		7D2D762723F5F0350077C9DA /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+				7D2D762523F35E900077C9DA /* RateViewController.xib */,
+				7D2D762323F35E5B0077C9DA /* RateViewController.swift */,
+				7D2D762823F5F0620077C9DA /* EpisodeViewController.swift */,
+				7D2D762A23F5F07B0077C9DA /* EpisodeViewController.xib */,
+				7DE9914823FB319F00AEB059 /* EpisodeTableViewCell.swift */,
+				7DE9914A23FB31E000AEB059 /* EpisodeTableViewCell.xib */,
+				7DA57B262406E02D00B3DDE0 /* EpisodeDetailViewController.swift */,
+				7DA57B2A2406E07900B3DDE0 /* EpisodeDetailViewController.xib */,
+				7DA57B2C2406E09700B3DDE0 /* EpisodeDetailImageViewControllerCell.swift */,
+				7DA57B2E2406E0B600B3DDE0 /* EpisodeDetailImageViewControllerCell.xib */,
+				7DA57B302406E0D400B3DDE0 /* EpisodeDetailDataViewControllerCell.xib */,
+				7DA57B3224070E5800B3DDE0 /* EpisodeDetailDataViewControllerCell.swift */,
+			);
+			path = Episodes;
+			sourceTree = "<group>";
+		};
+		7D2D762C23F5F3E40077C9DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D2D762D23F5F4190077C9DA /* Episode.swift */,
+				7DE9915023FB4B7100AEB059 /* Cast.swift */,
+				7DE9915423FB54EC00AEB059 /* House.swift */,
+				7DA57B1023FE4BF100B3DDE0 /* Rating.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D2D762F23F601E20077C9DA /* Cast */ = {
+			isa = PBXGroup;
+			children = (
+				7D2D763123F6020C0077C9DA /* CastViewController.swift */,
+				7D2D763323F602240077C9DA /* CastViewController.xib */,
+				7D867F7323FD0F4800D82DD6 /* CastTableViewCell.swift */,
+				7D867F7523FD0F6100D82DD6 /* CastTableViewCell.xib */,
+				7DA57B34240956C400B3DDE0 /* CastDetatilViewController.swift */,
+				7DA57B36240956DC00B3DDE0 /* CastDetailViewController.xib */,
+				7DA57B382409570900B3DDE0 /* CastDetailImageTableCell.swift */,
+				7DA57B3A2409572800B3DDE0 /* CastDetailImageTableCell.xib */,
+				7DA57B3C2409574900B3DDE0 /* CastDetailDataTableCell.swift */,
+				7DA57B3E2409576C00B3DDE0 /* CastDetailDataTableCell.xib */,
+			);
+			path = Cast;
+			sourceTree = "<group>";
+		};
+		7D2D763023F601F20077C9DA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7D2D763523F602B00077C9DA /* SettingsViewController.swift */,
+				7D2D763723F602C10077C9DA /* SettingsViewController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7D2D763923F606980077C9DA /* Houses */ = {
+			isa = PBXGroup;
+			children = (
+				7D2D763A23F606BF0077C9DA /* HouseViewController.swift */,
+				7D2D763D23F606E20077C9DA /* HouseViewController.xib */,
+				7D2434C723FDDD3000AD099B /* HouseTableViewCell.swift */,
+				7D2434CB23FDDE2C00AD099B /* HouseTableViewCell.xib */,
+				7D4A3FA8240C2100000C01EC /* HouseDetailViewController.swift */,
+				7D4A3FA9240C2100000C01EC /* HouseDetailViewController.xib */,
+				7D4A3FAC240C2119000C01EC /* HouseDetailImageTableCell.swift */,
+				7D4A3FAE240C212E000C01EC /* HouseDetailImageTableCell.xib */,
+				7D4A3FB0240C214F000C01EC /* HouseDetailDataTableCell.swift */,
+				7D4A3FB2240C2168000C01EC /* HouseDetailDataTableCell.xib */,
+			);
+			path = Houses;
+			sourceTree = "<group>";
+		};
+		7D4A3F9F2409D1DA000C01EC /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				7D4A3FA02409D233000C01EC /* FavoritesViewController.swift */,
+				7D4A3FA12409D233000C01EC /* FavoritesViewController.xib */,
+				7D4A3FA4240AC12E000C01EC /* FavoritesTableViewCell.swift */,
+				7D4A3FA6240AC141000C01EC /* FavoritesTableViewCell.xib */,
+			);
+			path = Favorites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +381,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DA57B1F23FF31A400B3DDE0 /* season_7.json in Resources */,
+				7DA57B2023FF31A400B3DDE0 /* season_8.json in Resources */,
+				7DA57B37240956DC00B3DDE0 /* CastDetailViewController.xib in Resources */,
+				7DA57B3B2409572800B3DDE0 /* CastDetailImageTableCell.xib in Resources */,
+				7DA57B3F2409576C00B3DDE0 /* CastDetailDataTableCell.xib in Resources */,
+				7DA57B2123FF31A400B3DDE0 /* season_5.json in Resources */,
+				7D2D762623F35E900077C9DA /* RateViewController.xib in Resources */,
+				7D2D763823F602C10077C9DA /* SettingsViewController.xib in Resources */,
+				7D867F7623FD0F6100D82DD6 /* CastTableViewCell.xib in Resources */,
 				7D2D760E23F34BD00077C9DA /* LaunchScreen.storyboard in Resources */,
+				7DA57B2223FF31A400B3DDE0 /* houses.json in Resources */,
+				7DA57B2B2406E07900B3DDE0 /* EpisodeDetailViewController.xib in Resources */,
+				7D2D763423F602240077C9DA /* CastViewController.xib in Resources */,
+				7D4A3FA7240AC141000C01EC /* FavoritesTableViewCell.xib in Resources */,
+				7D4A3FAB240C2100000C01EC /* HouseDetailViewController.xib in Resources */,
+				7D4A3FA32409D233000C01EC /* FavoritesViewController.xib in Resources */,
+				7DA57B1E23FF31A400B3DDE0 /* cast.json in Resources */,
+				7D2D763E23F606E20077C9DA /* HouseViewController.xib in Resources */,
+				7D2434CC23FDDE2C00AD099B /* HouseTableViewCell.xib in Resources */,
+				7D4A3FB3240C2168000C01EC /* HouseDetailDataTableCell.xib in Resources */,
+				7DE9914B23FB31E000AEB059 /* EpisodeTableViewCell.xib in Resources */,
+				7D4A3FAF240C212E000C01EC /* HouseDetailImageTableCell.xib in Resources */,
+				7DA57B2423FF31A400B3DDE0 /* season_4.json in Resources */,
+				7DA57B312406E0D400B3DDE0 /* EpisodeDetailDataViewControllerCell.xib in Resources */,
+				7DA57B2323FF31A400B3DDE0 /* season_2.json in Resources */,
+				7D2D762B23F5F07B0077C9DA /* EpisodeViewController.xib in Resources */,
+				7DA57B2523FF31A400B3DDE0 /* season_3.json in Resources */,
 				7D2D760B23F34BD00077C9DA /* Assets.xcassets in Resources */,
-				7D2D760923F34BCE0077C9DA /* Main.storyboard in Resources */,
+				7DA57B1D23FF31A400B3DDE0 /* season_1.json in Resources */,
+				7DA57B1C23FF31A400B3DDE0 /* season_6.json in Resources */,
+				7DA57B2F2406E0B600B3DDE0 /* EpisodeDetailImageViewControllerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +429,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D2D760623F34BCE0077C9DA /* ViewController.swift in Sources */,
+				7D4A3FB1240C214F000C01EC /* HouseDetailDataTableCell.swift in Sources */,
+				7DE9914923FB319F00AEB059 /* EpisodeTableViewCell.swift in Sources */,
+				7DE9915323FB513500AEB059 /* DataController.swift in Sources */,
+				7DA57B392409570900B3DDE0 /* CastDetailImageTableCell.swift in Sources */,
+				7DE9915523FB54EC00AEB059 /* House.swift in Sources */,
+				7D4A3FA5240AC12E000C01EC /* FavoritesTableViewCell.swift in Sources */,
+				7DA57B2D2406E09700B3DDE0 /* EpisodeDetailImageViewControllerCell.swift in Sources */,
+				7D2D762423F35E5B0077C9DA /* RateViewController.swift in Sources */,
+				7D4A3FA22409D233000C01EC /* FavoritesViewController.swift in Sources */,
 				7D2D760223F34BCE0077C9DA /* AppDelegate.swift in Sources */,
+				7D2D763623F602B00077C9DA /* SettingsViewController.swift in Sources */,
+				7DA57B272406E02D00B3DDE0 /* EpisodeDetailViewController.swift in Sources */,
+				7D2D762923F5F0620077C9DA /* EpisodeViewController.swift in Sources */,
+				7D4A3FAD240C2119000C01EC /* HouseDetailImageTableCell.swift in Sources */,
+				7D867F7423FD0F4800D82DD6 /* CastTableViewCell.swift in Sources */,
+				7D2D762E23F5F4190077C9DA /* Episode.swift in Sources */,
 				7D2D760423F34BCE0077C9DA /* SceneDelegate.swift in Sources */,
+				7DA57B3D2409574900B3DDE0 /* CastDetailDataTableCell.swift in Sources */,
+				7D4A3FAA240C2100000C01EC /* HouseDetailViewController.swift in Sources */,
+				7DE9915123FB4B7100AEB059 /* Cast.swift in Sources */,
+				7D2D763223F6020C0077C9DA /* CastViewController.swift in Sources */,
+				7DA57B1123FE4BF100B3DDE0 /* Rating.swift in Sources */,
+				7DA57B35240956C400B3DDE0 /* CastDetatilViewController.swift in Sources */,
+				7DA57B3324070E5800B3DDE0 /* EpisodeDetailDataViewControllerCell.swift in Sources */,
+				7D2434C823FDDD3000AD099B /* HouseTableViewCell.swift in Sources */,
+				7D2D763B23F606BF0077C9DA /* HouseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +477,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7D2D760723F34BCE0077C9DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D2D760823F34BCE0077C9DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7D2D760C23F34BD00077C9DA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

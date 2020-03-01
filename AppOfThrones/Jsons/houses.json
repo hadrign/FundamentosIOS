@@ -1,0 +1,65 @@
+[
+    {
+        "id": 100,
+        "imageName": "Targaryen",
+        "name": "Targaryen",
+        "words": "Fire and Blood",
+        "seat": "Red Keep, King's Landing",
+    },
+    {
+        "id": 101,
+        "imageName": "Stark",
+        "name": "Stark",
+        "words": "Winter Is Coming",
+        "seat": "Winterfell",
+    },
+    {
+        "id": 102,
+        "imageName": "Lannister",
+        "name": "Lannister",
+        "words": "Hear Me Roar!",
+        "seat": "Casterly Rock",
+    },
+    {
+        "id": 103,
+        "imageName": "Martell",
+        "name": "Martell",
+        "words": "Unbowed, Unbent, Unbroken",
+        "seat": "Sunspear",
+    },
+    {
+        "id": 104,
+        "imageName": "Tyrell",
+        "name": "Tyrell",
+        "words": "Growing Strong",
+        "seat": "Highgarden",
+    },
+    {
+        "id": 105,
+        "imageName": "Baratheon",
+        "name": "Baratheon",
+        "words": "Ours is the Fury",
+        "seat": "Storm's End",
+    },
+    {
+        "id": 106,
+        "imageName": "Greyjoy",
+        "name": "Greyjoy",
+        "words": "We Do Not Sow",
+        "seat": "Salt Throne, Pyke",
+    },
+    {
+        "id": 107,
+        "imageName": "Tully",
+        "name": "Tully",
+        "words": "Family, Duty, Honor",
+        "seat": "Riverrun",
+    },
+    {
+        "id": 108,
+        "imageName": "Arryn",
+        "name": "Arryn",
+        "words": "As High as Honor",
+        "seat": "The Eyrie",
+    }
+]

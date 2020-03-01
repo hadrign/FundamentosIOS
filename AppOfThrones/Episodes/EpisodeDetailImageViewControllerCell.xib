@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="244" id="wqI-5e-kS9" customClass="EpisodeDetailImageViewControllerCell" customModule="AppOfThrones" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="244"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wqI-5e-kS9" id="e2G-v5-Hbf">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="244"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1p7-cQ-Q2O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="244"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="1p7-cQ-Q2O" secondAttribute="trailing" id="Ov9-lf-Dpw"/>
+                    <constraint firstItem="1p7-cQ-Q2O" firstAttribute="top" secondItem="e2G-v5-Hbf" secondAttribute="top" id="SY4-Cw-8Zh"/>
+                    <constraint firstItem="1p7-cQ-Q2O" firstAttribute="leading" secondItem="e2G-v5-Hbf" secondAttribute="leading" id="jtO-XF-3lJ"/>
+                    <constraint firstAttribute="bottom" secondItem="1p7-cQ-Q2O" secondAttribute="bottom" id="tQs-5P-Dwl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+            <connections>
+                <outlet property="episodeImage" destination="1p7-cQ-Q2O" id="uHQ-Y6-8Jc"/>
+            </connections>
+            <point key="canvasLocation" x="121.73913043478262" y="40.848214285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

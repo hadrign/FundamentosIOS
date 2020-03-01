@@ -17,7 +17,41 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        let episodeViewController = EpisodeViewController()
+        let castViewController = CastViewController()
+        let houseViewController = HouseViewController()
+        let settingsViewController = SettingsViewController()
+        let favoritesViewController = FavoritesViewController()
+        
+        
+        
+        episodeViewController.tabBarItem = UITabBarItem.init(title: "Seasons", image: UIImage.init(systemName: "film.fill"), tag: 0)
+        castViewController.tabBarItem = UITabBarItem.init(title: "Cast", image: UIImage.init(systemName: "person.3.fill"), tag: 1)
+        houseViewController.tabBarItem = UITabBarItem.init(title: "House", image: UIImage.init(systemName: "shield.lefthalf.fill"), tag: 2)
+        favoritesViewController.tabBarItem = UITabBarItem.init(title: "Favorites", image: UIImage.init(systemName: "heart.fill"), tag: 3)
+        settingsViewController.tabBarItem = UITabBarItem.init(title: "Settings", image: UIImage.init(systemName: "gear"), tag: 4)
+        
+        let navigationEpisodeViewController = UINavigationController.init(rootViewController: episodeViewController)
+        let navigationCastViewController = UINavigationController.init(rootViewController: castViewController)
+        let navigationHouseViewController = UINavigationController.init(rootViewController: houseViewController)
+        let navigationSettingsController = UINavigationController.init(rootViewController: settingsViewController)
+        let navigationFavoritesController = UINavigationController.init(rootViewController: favoritesViewController)
+        
+        
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = [navigationEpisodeViewController, navigationCastViewController, navigationHouseViewController, navigationFavoritesController, navigationSettingsController]
+        tabBarController.tabBar.barStyle = .black
+        tabBarController.tabBar.isTranslucent = true
+        tabBarController.tabBar.tintColor = UIColor.init(red: 235/255.0, green: 172/255.0, blue: 38/255.0, alpha: 1.0)
+        UINavigationBar.appearance().overrideUserInterfaceStyle = .dark
+        UINavigationBar.appearance().tintColor = UIColor.init(red: 235/255.0, green: 172/255.0, blue: 38/255.0, alpha: 1.0)
+        
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

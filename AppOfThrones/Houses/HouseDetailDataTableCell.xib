@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="249" id="ZQc-A1-9ej" customClass="HouseDetailDataTableCell" customModule="AppOfThrones" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="249"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZQc-A1-9ej" id="euj-5l-grg">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="249"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOd-qL-hX6">
+                        <rect key="frame" x="20" y="16" width="374" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Ako-YU-CHc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Words:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jew-Ys-siX">
+                        <rect key="frame" x="17" y="62" width="379" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Uwf-Mq-Via"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j32-Po-laO">
+                        <rect key="frame" x="17" y="101" width="379" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="W7k-ih-UYR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seat:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ER3-xy-cig">
+                        <rect key="frame" x="17" y="137" width="379" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="sx1-Kv-PSa"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="xfj-M2-1t8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXo-uT-3ha">
+                        <rect key="frame" x="18" y="172" width="379" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="21" id="3vR-BL-AsH"/>
+                            <constraint firstAttribute="height" constant="21" id="Drr-oS-hxc"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="sfx-1E-nrL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Jew-Ys-siX" firstAttribute="top" secondItem="yOd-qL-hX6" secondAttribute="bottom" constant="25" id="0Zu-Gx-GiS"/>
+                    <constraint firstAttribute="trailing" secondItem="Jew-Ys-siX" secondAttribute="trailing" constant="18" id="5hR-i6-RXb"/>
+                    <constraint firstAttribute="trailing" secondItem="ER3-xy-cig" secondAttribute="trailing" constant="18" id="5lD-Wi-Eig"/>
+                    <constraint firstItem="Jew-Ys-siX" firstAttribute="leading" secondItem="euj-5l-grg" secondAttribute="leading" constant="17" id="7Ud-de-ag4"/>
+                    <constraint firstItem="j32-Po-laO" firstAttribute="top" secondItem="Jew-Ys-siX" secondAttribute="bottom" constant="18" id="C98-7O-TyJ"/>
+                    <constraint firstItem="TXo-uT-3ha" firstAttribute="top" secondItem="ER3-xy-cig" secondAttribute="bottom" constant="14" id="D7I-DK-5dF"/>
+                    <constraint firstItem="j32-Po-laO" firstAttribute="leading" secondItem="euj-5l-grg" secondAttribute="leading" constant="17" id="DsB-4p-j1B"/>
+                    <constraint firstItem="ER3-xy-cig" firstAttribute="top" secondItem="j32-Po-laO" secondAttribute="bottom" constant="15" id="FJx-3m-w4E"/>
+                    <constraint firstAttribute="trailing" secondItem="yOd-qL-hX6" secondAttribute="trailing" constant="20" symbolic="YES" id="GGi-k3-ZHl"/>
+                    <constraint firstAttribute="trailing" secondItem="j32-Po-laO" secondAttribute="trailing" constant="18" id="H6I-zS-L2t"/>
+                    <constraint firstItem="yOd-qL-hX6" firstAttribute="leading" secondItem="euj-5l-grg" secondAttribute="leading" constant="20" symbolic="YES" id="WJd-C1-fbA"/>
+                    <constraint firstItem="yOd-qL-hX6" firstAttribute="top" secondItem="euj-5l-grg" secondAttribute="top" constant="16" id="hva-i7-rWj"/>
+                    <constraint firstAttribute="trailing" secondItem="TXo-uT-3ha" secondAttribute="trailing" constant="17" id="kNg-eR-2Sx"/>
+                    <constraint firstItem="TXo-uT-3ha" firstAttribute="leading" secondItem="euj-5l-grg" secondAttribute="leading" constant="18" id="lw9-aR-3G7"/>
+                    <constraint firstItem="ER3-xy-cig" firstAttribute="leading" secondItem="euj-5l-grg" secondAttribute="leading" constant="17" id="rKU-br-EMm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+            <connections>
+                <outlet property="houseName" destination="yOd-qL-hX6" id="HBq-eC-FHt"/>
+                <outlet property="houseSeat" destination="TXo-uT-3ha" id="fZm-lK-ttr"/>
+                <outlet property="houseWords" destination="j32-Po-laO" id="pqT-eO-M5C"/>
+            </connections>
+            <point key="canvasLocation" x="163.768115942029" y="50.558035714285715"/>
+        </tableViewCell>
+    </objects>
+</document>
