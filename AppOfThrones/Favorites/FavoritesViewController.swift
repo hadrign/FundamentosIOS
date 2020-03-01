@@ -19,7 +19,7 @@ class FavoritesViewController: UIViewController, UITableViewDelegate, UITableVie
             super.viewDidLoad()
             self.setUpUI()
             self.setUpNotification()
-            //self.setUpData()
+            self.setUpData()
             
         }
         
